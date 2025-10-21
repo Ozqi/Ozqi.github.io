@@ -1,3 +1,14 @@
+---
+title: Vim编辑器使用指南
+date: 2025-10-21 10:20:00
+categories:
+  - 开发工具
+tags:
+  - Vim
+  - 编辑器
+  - Tmux
+  - Linux
+---
 
 # Vim
 

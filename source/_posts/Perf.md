@@ -1,3 +1,16 @@
+---
+title: 性能分析与调试工具
+date: 2025-10-21 10:00:00
+categories:
+  - 开发工具
+tags:
+  - Perf
+  - GDB
+  - 性能分析
+  - 调试
+  - Linux
+---
+
 # 性能分析、DEBUG
 
 高质量的 log, error tracing, 和 profiling 工具。不仅仅是能搭件一个working的系统，而是有能力去**从头到尾追踪每一个延迟点**，把系统之间的关联和可能存在的bottleneck拆解成一系列可量化的问题，并在上线后持续做 cost/performance profiling。

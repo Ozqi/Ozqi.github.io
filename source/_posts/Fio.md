@@ -1,3 +1,15 @@
+---
+title: 存储测试与Trace工具
+date: 2025-10-21 10:30:00
+categories:
+  - 性能测试
+tags:
+  - FIO
+  - 存储测试
+  - Trace
+  - 性能分析
+---
+
 # 测试与Trace
 ## FIO测试
 

@@ -130,19 +130,6 @@ rightside:
   show_percent: true
   total_progress: true
 
-# 社交链接
-social:
-  fab fa-github: https://github.com/LiuziqiOvO || GitHub
-  fas fa-envelope: mailto:your-email@example.com || Email
-
-# 页脚配置
-footer:
-  owner:
-    enable: true
-    since: 2024
-  custom_text: 
-  copyright: true
-
 # 阅读模式
 readmode: true
 
@@ -155,13 +142,4 @@ darkmode:
 # 自定义样式
 inject:
   head:
-    - <style>
-        .link-card { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 20px 0; }
-        .link-item { background: var(--card-bg); border-radius: 12px; padding: 20px; transition: transform 0.3s; }
-        .link-item:hover { transform: translateY(-5px); }
-        .link-item a { text-decoration: none; color: var(--font-color); display: flex; align-items: center; }
-        .link-item img { width: 32px; height: 32px; margin-right: 15px; }
-        .link-item span { font-weight: bold; font-size: 16px; }
-        .link-item p { margin: 5px 0 0 47px; color: var(--minor); font-size: 14px; }
-      </style>
-    - <link rel="stylesheet" href="/css/custom.css">
+  bottom:
