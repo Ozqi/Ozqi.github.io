@@ -15,6 +15,16 @@ avatar:
   img: /img/avatar.svg
   effect: true
 
+# 网站背景
+background: /img/backgroud.jpg
+
+# 顶部图
+index_img: /img/backgroud.jpg
+default_top_img: /img/backgroud.jpg
+archive_img: /img/backgroud.jpg
+tag_img: /img/backgroud.jpg
+category_img: /img/backgroud.jpg
+
 # 主页文章节选
 index_post_content:
   method: 3
@@ -142,4 +152,5 @@ darkmode:
 # 自定义样式
 inject:
   head:
+    - '<style>#web_bg{background-image:url(/img/backgroud.jpg);background-size:cover;background-position:center;background-repeat:no-repeat;background-attachment:fixed;}#page{background:rgba(255,255,255,0.9);}body[data-type="darkmode"] #page{background:rgba(18,18,18,0.9);}</style>'
   bottom:
