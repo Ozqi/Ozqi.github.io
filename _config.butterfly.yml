@@ -6,7 +6,7 @@ menu:
   归档: /archives/ || fas fa-archive
   分类: /categories/ || fas fa-folder-open
   # 友链: /links/ || fas fa-link
-  搜索: /search/ || fas fa-search
+  # 搜索: /search/ || fas fa-search
   关于: /about/ || fas fa-heart
 
 # 网站图标和头像
@@ -143,11 +143,17 @@ canvas_ribbon:
   click_to_change: true
   mobile: false
 
-# 搜索功能
-local_search:
-  enable: true
-  preload: true
-  CDN:
+# 搜索功能（Butterfly 5.5 格式）
+search:
+  use: local_search
+  local_search:
+    preload: true
+    top_n_per_article: 1
+    unescape: false
+    pagination:
+      enable: true
+      hitsPerPage: 8
+    CDN:
 
 # 右下角按钮
 rightside:
