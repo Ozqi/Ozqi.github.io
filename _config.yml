@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: zqLiu的博客
+title: DavLiu的博客
 subtitle: '个人博客'
 description: '分享技术，记录生活'
 keywords: 技术,博客,编程
-author: lzq
+author: Ziqi Liu
 language: zh-CN
 timezone: 'Asia/Shanghai'
 
@@ -105,6 +105,8 @@ deploy:
 
 # 搜索数据库
 search:
+  enable: true
+  type: local
   path: search.xml
   field: post
   content: true

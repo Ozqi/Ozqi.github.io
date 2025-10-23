@@ -4,9 +4,9 @@
 menu:
   首页: / || fas fa-home
   归档: /archives/ || fas fa-archive
-  标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
-  友链: /links/ || fas fa-link
+  # 友链: /links/ || fas fa-link
+  搜索: /search/ || fas fa-search
   关于: /about/ || fas fa-heart
 
 # 网站图标和头像
@@ -28,7 +28,7 @@ category_img: /img/backgroud.jpg
 # 主页文章节选
 index_post_content:
   method: 3
-  length: 300
+  length: 600
   excerpt_all: true
 
 # 侧边栏设置
@@ -78,9 +78,9 @@ highlight_lang: true
 # 主题色配置
 theme_color:
   enable: true
-  main: "#1c1c1c"
+  main: "#a4a3a3"
   paginator: "#00c4b6"
-  button_hover: "#FF7242"
+  button_hover: "#1c1c1c"
   text_selection: "#00c4b6"
   link_color: "#3498db"
   meta_color: "#000000"
@@ -116,10 +116,7 @@ post_copyright:
 
 # 评论系统
 comments:
-  use: Waline
-  text: true
-  count: true
-  lazyload: true
+  use: false
 
 # 页面加载动画
 preloader: true
