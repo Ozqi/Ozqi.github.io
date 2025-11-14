@@ -1,23 +1,19 @@
 ---
-title: 欢迎来到我的技术博客
+title: 欢迎来到我的随笔
 date: 2024-09-16 10:00:00
 tags: 
-  - 博客
+  - 随笔
   - 技术分享
   - 个人介绍
 categories:
-  - 博客建设
-description: 博客正式上线！这里将分享技术文章、学习笔记和生活感悟。
+  - 随笔建设
+description: 这里将分享技术文章、学习笔记
 cover: /img/bios2.png
 ---
 
-## 🎉 博客正式上线！
+经过一番折腾，成功部署到了GitHub Pages上。
 
-大家好！欢迎来到我的个人技术博客。经过一番折腾，终于把博客搭建完成并成功部署到了GitHub Pages上。
-
-### 📝 博客简介
-
-这个博客基于以下技术栈构建：
+这个网站基于以下技术栈构建：
 - **静态网站生成器**：Hexo
 - **主题**：Butterfly
 - **部署平台**：GitHub Pages
@@ -42,12 +38,6 @@ cover: /img/bios2.png
 - LSM-tree 存储引擎
 - 缓存算法优化
 
-#### 学习记录
-- 新技术的学习心得
-- 开发工具使用技巧
-- 问题解决过程记录
-
-### 🔧 博客功能
 
 目前博客已经配置了以下功能：
 - ✅ 响应式设计，支持移动端访问
@@ -70,7 +60,6 @@ cover: /img/bios2.png
 ### 💬 交流与反馈
 
 如果你对我的文章有任何建议或疑问，欢迎：
-- 在文章下方留言讨论
 - 通过邮件联系我
 - 在GitHub上提issue
 
@@ -79,5 +68,3 @@ cover: /img/bios2.png
 ---
 
 > "The best time to plant a tree was 20 years ago. The second best time is now."
-
-感谢你的访问，希望这个博客能为你带来价值！ 

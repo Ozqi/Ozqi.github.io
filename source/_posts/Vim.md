@@ -43,7 +43,7 @@ tags:
 
 ## 常用快捷键
 
-![img](./image/Ubuntu.assets/9d1351469929da16936b11c946ecd2c4.jpeg)
+![img](https://gitee.com/Lzq647/bed/raw/master/vim.jpeg)
 
 ### 移动：
 
