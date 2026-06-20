@@ -4,11 +4,7 @@
 
 # Site
 title: DavLiu的博客
-subtitle:
-  enable : true
-  text : "Build Myself from Scratch"
-  effect: typing    # 支持 typing / fade / blink
-  speed: 100        # 打字速度
+subtitle: Build Myself from Scratch
 description: '分享技术，记录生活'
 keywords: 技术,博客,编程
 author: Ziqi Liu
