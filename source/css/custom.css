@@ -233,6 +233,12 @@ body::before {
   outline-offset: -1px;
 }
 
+#aside-content .card-widget {
+  border-radius: var(--dav-radius-lg) !important;
+  background: var(--dav-surface) !important;
+  box-shadow: var(--dav-soft-shadow) !important;
+}
+
 #recent-posts > .recent-post-item {
   transition: transform 0.28s ease, box-shadow 0.28s ease, border-color 0.28s ease;
 }
