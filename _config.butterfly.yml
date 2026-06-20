@@ -45,7 +45,7 @@ aside:
       enable: true
       icon: fab fa-github
       text: Follow Me
-      link: https://github.com/LiuziqiOvO
+      link: https://github.com/Ozqi
   card_announcement:
     enable: true
     content: 欢迎访问本站，这里会分享一些技术文章和生活感悟。
@@ -96,7 +96,7 @@ theme_color:
 
 # 社交链接
 social:
-  Github: https://github.com/LiuziqiOvO || fab fa-github
+  Github: https://github.com/Ozqi || fab fa-github
   E-Mail: mailto:1021578619@qq.com || fas fa-envelope
 
 # 页脚设置

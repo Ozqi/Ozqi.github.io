@@ -35,7 +35,7 @@ layout: "about"
 
 ### 📫 联系方式
 
-- GitHub: [@LiuziqiOvO](https://github.com/LiuziqiOvO)
+- GitHub: [@Ozqi](https://github.com/Ozqi)
 - Email: [你的邮箱]
 - 欢迎交流讨论！
 
