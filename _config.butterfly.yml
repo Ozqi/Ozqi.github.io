@@ -18,24 +18,12 @@ avatar:
 # 网站背景
 background: /img/backgroud.jpg
 
-# 首页副标题：由 Butterfly 负责打字效果，Hexo 主配置仅保留纯文本 subtitle
-subtitle:
-  enable: true
-  effect: true
-  typed_option:
-  source: false
-  sub:
-    - Build Myself from Scratch
-    - Systems, Storage, Databases, and Notes
-    - 保持好奇，打磨系统，也打磨自己
-
 # 顶部图
 index_img: /img/backgroud.jpg
 default_top_img: /img/backgroud.jpg
 archive_img: /img/backgroud.jpg
 tag_img: /img/backgroud.jpg
 category_img: /img/backgroud.jpg
-index_top_img_height: 72vh
 
 # 主页文章节选
 index_post_content:
@@ -52,7 +40,7 @@ aside:
   position: right
   card_author:
     enable: true
-    description: 'Systems · Storage · Databases'
+    description: '欢迎来到我的博客'
     button:
       enable: true
       icon: fab fa-github
@@ -60,7 +48,7 @@ aside:
       link: https://github.com/Ozqi
   card_announcement:
     enable: true
-    content: 欢迎来到 DavLiu 的技术花园，记录系统、存储、数据库与成长。
+    content: 欢迎访问本站，这里会分享一些技术文章和生活感悟。
   card_recent_post:
     enable: true
     limit: 5
@@ -90,21 +78,21 @@ highlight_lang: true
 # 主题色配置
 theme_color:
   enable: true
-  main: "#7c3aed"
-  paginator: "#06b6d4"
-  button_hover: "#f97316"
-  text_selection: "#22d3ee"
-  link_color: "#2563eb"
-  meta_color: "#64748b"
-  hr_color: "#a78bfa"
-  code_foreground: "#f97316"
-  code_background: "rgba(15, 23, 42, .06)"
-  toc_color: "#7c3aed"
-  blockquote_padding_color: "#7c3aed"
-  blockquote_background_color: "rgba(124, 58, 237, .08)"
-  scrollbar_color: "#7c3aed"
-  meta_theme_color_light: "#f8fafc"
-  meta_theme_color_dark: "#0f172a"
+  main: "#a4a3a3"
+  paginator: "#00c4b6"
+  button_hover: "#1c1c1c"
+  text_selection: "#00c4b6"
+  link_color: "#3498db"
+  meta_color: "#000000"
+  hr_color: "#A4D8FA"
+  code_foreground: "#F47466"
+  code_background: "rgba(27, 31, 35, .05)"
+  toc_color: "#1c1c1c"
+  blockquote_padding_color: "#1c1c1c"
+  blockquote_background_color: "#1c1c1c"
+  scrollbar_color: "#1c1c1c"
+  meta_theme_color_light: "#1c1c1c"
+  meta_theme_color_dark: "#1c1c1c"
 
 # 社交链接
 social:
@@ -182,9 +170,3 @@ darkmode:
   enable: true
   button: true
   autoChangeMode: false
-
-# 项目本地样式注入：只加载 source/css/custom.css，不修改主题包源码
-inject:
-  head:
-    - <link rel="stylesheet" href="/css/custom.css">
-  bottom:
